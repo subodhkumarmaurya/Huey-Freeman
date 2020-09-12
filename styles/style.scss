@@ -17,7 +17,7 @@ header{
     padding-top: 30px;
 }
 .title1{
-    font-size: 75px;
+    font-size: 95px;
     font-family: "Shadows Into Light"; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 }
 
@@ -34,23 +34,27 @@ header{
     max-width: 100%;
     max-height: auto;
     padding-top: 75px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .title2{
-    padding-left: 4rem;
+    padding-left: 17rem;
     padding-top: 9rem;
-    font-size: 55px;
+    font-size: 65px;
 }
 
 .family-description{
-    padding-left: 4rem;
-    font-size: 25px;
+    padding-left: 18rem;
+    padding-right: 18rem;
+    font-size: 30px;
     color: rgb(63, 63, 63);
 }
 
 .img-description{
     padding-left: 4rem;
     color: rgb(100, 100, 100);
+    font-size: 25px;
 }
 
 
@@ -60,6 +64,8 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .container{
@@ -142,6 +148,13 @@ header{
 .enemies-title{
     font-family: "Shadows Into Light"; font-style: normal; font-variant: normal; font-weight: 800;
     font-size: 50px;
+}
+/* Image between the 2 flip card */
+
+.huey-think{
+    max-height: 60rem;
+    margin-top: 6rem;
+    border-radius: 90px;
 }
 
 /* flip card #2 */

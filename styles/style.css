@@ -36,7 +36,7 @@ header {
 }
 
 .title1 {
-  font-size: 75px;
+  font-size: 95px;
   font-family: "Shadows Into Light";
   font-style: normal;
   font-variant: normal;
@@ -66,23 +66,27 @@ header {
   max-width: 100%;
   max-height: auto;
   padding-top: 75px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .title2 {
-  padding-left: 4rem;
+  padding-left: 17rem;
   padding-top: 9rem;
-  font-size: 55px;
+  font-size: 65px;
 }
 
 .family-description {
-  padding-left: 4rem;
-  font-size: 25px;
+  padding-left: 18rem;
+  padding-right: 18rem;
+  font-size: 30px;
   color: #3f3f3f;
 }
 
 .img-description {
   padding-left: 4rem;
   color: #646464;
+  font-size: 25px;
 }
 
 /* flip card #1 */
@@ -97,6 +101,8 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .container {
@@ -214,6 +220,13 @@ header {
   font-variant: normal;
   font-weight: 800;
   font-size: 50px;
+}
+
+/* Image between the 2 flip card */
+.huey-think {
+  max-height: 60rem;
+  margin-top: 6rem;
+  border-radius: 90px;
 }
 
 /* flip card #2 */
